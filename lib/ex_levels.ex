@@ -1,18 +1,11 @@
 defmodule ExLevels do
   @moduledoc """
-  Documentation for `ExLevels`.
+  Does something. Not sure what yet.
   """
 
-  @doc """
-  Hello world.
+  alias ExLevels.Levels
 
-  ## Examples
-
-      iex> ExLevels.hello()
-      :world
-
-  """
-  def hello do
-    :world
+  def run do
+    IO.puts Levels.fetch
   end
 end
